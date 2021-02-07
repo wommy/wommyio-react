@@ -4,10 +4,27 @@ import AppReducer from './AppReducer'
 // initial state
 const initialState = {
 	items: [
-		{ id: 1, title: 'post1', color: 'green' },
-		{ id: 2, title: 'post2', color: 'red' },
-		{ id: 3, title: 'post3', color: 'yellow' },
-		{ id: 4, title: 'post4', color: 'blue' },
+		{ 
+			title: 'create a fresh path', 
+			body: 'i couldnt have made this without some help from my friends', 
+			videoSrc: '//player.vimeo.com/video/122390839'
+		},
+		{ 
+			title: 'wing chun videos', 
+			body: 'yellow', 
+			videoSrc: '//www.youtube.com/embed/jO9N00johrw'
+		},
+		{ 
+			title: 'john orris originals',
+			body: "ive come to cherish the handful of john orris' films i acted in", 
+			videoSrc: '//player.vimeo.com/video/73359740',
+			videoTitle: '&quot;Paradise Shorts&quot; .01-.10'
+		},
+		{ 
+			title: 'popcorn bulb', 
+			body: 'short video i acted in for gerald haman', 
+			videoSrc: '//www.youtube.com/embed/3mkvvZc3twY'
+		},
 	]
 }
 
